@@ -1,0 +1,13 @@
+{
+  "name"                : "localhost",
+  "json_class"          : "Chef::Role",
+  "description"         : "localhost kitchen",
+  "chef_type"           : "role",
+  "run_list"            : [
+    "recipe[base]",
+    "recipe[nginx]",
+    "recipe[ruby]",
+    "recipe[mysql]",
+    "recipe[redis]"
+  ]
+}
